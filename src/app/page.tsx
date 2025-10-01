@@ -1,7 +1,9 @@
-import TodoMain from "@/components/todo-main";
+import Checker from "@/components/checker";
 
 export default function Home() {
   return (
-    <TodoMain />
+    <main className="bg-blue-950 min-h-screen">
+      <Checker />
+    </main>
   );
 }
